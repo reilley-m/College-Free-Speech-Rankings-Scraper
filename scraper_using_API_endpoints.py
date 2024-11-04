@@ -2,6 +2,7 @@ import requests
 import json
 import csv
 
+#Define fields to scrape
 FIELDS = [
     '_id',
     'metadata.overallScore',
@@ -45,10 +46,8 @@ HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36'
 }
 
+#Function to navigate nested dictionaries
 def traverse(root, path):
-    """
-    Traverse nested dictionaries.
-    """
     value = root
     for segment in path.split('.'):
         if isinstance(value, list):
@@ -57,10 +56,8 @@ def traverse(root, path):
             value = value.get(segment, None) if value else None
     return value
 
+#Fetch data and write to csv
 def fetch_results_page(json_data, writer):
-    """
-    Fetch JSON data and write to CSV.
-    """
     for school in json_data:
         row = []
         for field in FIELDS:
