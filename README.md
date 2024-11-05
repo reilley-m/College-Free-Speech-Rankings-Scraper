@@ -2,21 +2,21 @@
 
 ## Overview
 
-This project aims to provide a data-driven college ranking system for prospective students based on metrics such as overall student satisfaction, admissions rate, tuition cost, political tolerance, and campus support for free speech. The goal is to help students identify schools that align with their preferences and values.
+This project aims to provide a data-driven college ranking system for prospective students based on metrics like overall student satisfaction, admissions rate, tuition cost, political tolerance, and campus support for free speech. The goal is to help students identify schools that align with both their preferences and values.
 
 The project includes the following components:
 
 - **A web scraper utilizing API endpoints to collect data on colleges.**
 - **A data cleaning script.**
 - **A ranking algorithm that generates scores for colleges based on user-defined weightings of different factors**
-- **Tableau isualizations to provide deeper insights into specific metrics of the dataset.**
+- **Tableau visualizations to provide insights into specific metrics of the dataset.**
 
 The goal is to help students identify institutions that align with their preferences and values.
 Data source: https://rankings.thefire.org/rank
 
 ## Files in This Repository
 
-1. **`college_scraper.py`**: This script scrapes data from the API endpoints of college ranking sources. The data is gathered in JSON format.
+1. **`college_scraper.py`**: This script scrapes data from the API endpoints of online college ranking sources. The data is gathered in JSON format.
 2. **`data_cleaning.py`**: This script processes the raw data collected from the API.
 3. **`ranking_algorithm.py`**: Contains the ranking algorithm logic.
 4. **`college_data_raw.csv`**: Raw dataset before cleaning.
