@@ -26,5 +26,7 @@ Data source: https://rankings.thefire.org/rank
 
 - **Political Tolerance Scores**: This visualization shows the tolerance scores for conservatives and liberals at every college. https://public.tableau.com/views/TotalScorebreakdownforTop10Colleges/CollegesWithTheMostInstancesofCampusFreeSpeechSupport?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link 
 - **Top 11 Colleges for Campus Support of Free Speech**: Highlights the colleges with the most instances of public support for free speech.
-https://public.tableau.com/views/PoliticalToleranceScores/Sheet1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link 
+https://public.tableau.com/views/PoliticalToleranceScores/Sheet1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+- **Ranked Colleges Based on User Defined Metrics**:
+https://public.tableau.com/views/RankedCollegesBasedonUserDefinedMetrics/Sheet1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link 
 
